@@ -1,0 +1,5 @@
+# Redirection pour les assets
+/front2/assets/* /assets/:splat 200
+
+# SPA fallback
+/front2/* /front2/index.html 200
